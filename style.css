@@ -84,26 +84,38 @@ align-items: center;
 }
 
 .about-img {
-    width: 20%;
-    margin: 2rem;
-   }
+    width: 50%;
+    
+ 
+
+   
+}
+.mac {
+align-items: center;
+justify-content: center;
+    width: 280px;
+    max-width: auto;
+ padding: 1rem 0;
+ }
+
 /** Section 2 */
 
 .description-section {
     text-align: center;
     margin:2rem;
+    padding: 2rem;
 
 }
 .container-caja {
      display: flex;
     flex-direction: column;
+gap: 5rem;
 
-       gap: 5rem;
         
 }
 .container-caja h2 {
 
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     font-weight: medium;
     text-transform: uppercase;
@@ -113,14 +125,17 @@ align-items: center;
     text-align: center;
     font-size: 1.5rem;
     max-width: 300px;
-    margin: 2rem auto 10rem auto;
+    margin: 1.5rem auto 6rem auto;
+   
   
 }
 
 .img-logo {
-    width: 20%;
+  max-width: 200px;
     margin-bottom: 2rem;
-    padding-top: 5rem;
+    padding-top: 3rem;
+   
+   
     
 
  }
@@ -131,7 +146,10 @@ align-items: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    background-color: red;
+   
+   
+  
 }
 /** Section 3*/
 
