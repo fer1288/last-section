@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+:root {
+    --
+}
+
+body {
+width: 100vw;
+max-width: 100%;
+
+}
+a  {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  *img {
+   
+    width: 100%;
+    height: auto;
+  }
+  header {
+
+    padding: 3rem 1rem 8rem 1rem;
+  }
+
+/** menu */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-items{
+    width: 100%;
+order: 1;
+}
+
+.menu i {
+    font-size: 2rem;
+    color: brown;
+}
+.item {
+text-align: center;
+text-transform: uppercase;    
+padding: 1rem 0;
+display: none;
+}
+/** Section 1 about */
+
+.about-section {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.about-content {
+    
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+} 
+.about-content p {
+    font-size: 1.5rem;
+    font: weight 300px; ;
+    margin: 1rem 0 4rem 0;
+    text-align: center;
+}
+.btn {
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.about-img {
+    width: 20%;
+    margin: 2rem;
+   }
+/** Section 2 */
+
+.description-section {
+    text-align: center;
+    margin:2rem;
+
+}
+.container-caja {
+     display: flex;
+    flex-direction: column;
+
+       gap: 5rem;
+        
+}
+.container-caja h2 {
+
+    font-size: 3rem;
+    text-align: center;
+    font-weight: medium;
+    text-transform: uppercase;
+    
+}
+.container-caja p {
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 300px;
+    margin: 2rem auto 10rem auto;
+  
+}
+
+.img-logo {
+    width: 20%;
+    margin-bottom: 2rem;
+    padding-top: 5rem;
+    
+
+ }
+ 
+
+ .caja {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+/** Section 3*/
+
+.concept_section {
+    padding: 8rem 0;
+   }
+   .concept_section h3 {
+    text-align: center;
+    font-size: 3rem;
+   }
+ 
+   .concept-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+   }
+
+.img_2 {
+    width: 20%;
+    margin-bottom: 2rem;
+    padding-top: 5rem;
+}   
+.concept {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+width: 350px;
+height: 500px;
+border-radius: 3rem;
+box-shadow: 0 0 20px rgb(0,0, 0,0.1) ;
+
+}
+.concept-title {
+    text-transform: uppercase;
+    font-size: 2rem;
+    max-width: 200px;
+    margin-top: 2rem;
+    
+}
+.concept-desc{
+    font-weight: medium;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
