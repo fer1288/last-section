@@ -182,3 +182,61 @@ box-shadow: 0 0 20px rgb(0,0, 0,0.1) ;
     margin: 1rem 0;
 }
 
+/** Section 4 */
+
+.nuestros-trabajos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.container-trabajo {
+
+
+}
+.trabajo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto {
+    max-width: 300px;
+    margin: 2rem;
+    border-radius: 20px;
+}
+.btn-2 {
+background-color: blue;
+
+color: aliceblue;
+padding: 1rem 2rem;
+border-radius: 1rem;
+}
+
+/** Footer */
+.final-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+padding: 5rem 0;
+}
+.contacto1 {
+    margin-bottom: 2rem;
+}
+.contacto2 {
+    max-width: 200px;
+    margin-top: 1rem 0;
+}
+.dire {
+    padding: 1rem;
+}
+.email {
+    padding: 1rem;
+}
+.tel {
+    padding: 1rem;
+}
