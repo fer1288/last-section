@@ -47,7 +47,7 @@ order: 1;
 
 .menu i {
     font-size: 2rem;
-    color: brown;
+  
 }
 .item {
 text-align: center;
@@ -104,8 +104,15 @@ justify-content: center;
     text-align: center;
     margin:2rem;
     padding: 2rem;
+    
 
 }
+.description-section h1 {
+  
+    padding: 1rem;
+    
+}
+
 .container-caja {
      display: flex;
     flex-direction: column;
@@ -136,9 +143,7 @@ gap: 5rem;
     padding-top: 3rem;
    
    
-    
-
- }
+     }
  
 
  .caja {
@@ -146,7 +151,7 @@ gap: 5rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: red;
+   
    
    
   
@@ -258,3 +263,94 @@ padding: 5rem 0;
 .tel {
     padding: 1rem;
 }
+
+@media (min-width:1024px){
+    
+ .menu {
+    flex-wrap: nowrap;
+   justify-content: space-around;
+  
+}
+.container-items {
+display: flex;
+justify-content: flex-end;
+gap: 50px;
+} 
+
+
+.item {
+  display: flex;
+  padding: 20px;
+
+    
+ }
+ 
+ .btn-container {
+    display: none;
+ }
+    
+/* Section1  about*/
+.about-section {
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+   
+
+}
+
+.about-content {
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 70%;
+margin: 2rem;
+
+
+}
+.about-content p {
+    text-align: left;
+    max-width: 700px;
+    
+}
+
+.mac{
+    max-width: 500px;
+   
+    margin: 0;
+}
+ 
+/** Section 2*/
+
+.container-caja {
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+   
+
+}
+.description-section {
+    padding-bottom: 0;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.description-section p {
+    max-width: 500px;
+}
+.caja {
+}
+/** section 3 */
+
+
+
+
+
+}
+    
+
+
+
+
+
+
