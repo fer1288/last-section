@@ -159,11 +159,17 @@ gap: 5rem;
 /** Section 3*/
 
 .concept_section {
+
     padding: 8rem 0;
+  
    }
    .concept_section h3 {
     text-align: center;
-    font-size: 3rem;
+     font-size: 3rem;
+   }
+   .concept_section p {
+    text-align: center;
+    padding: 3rem;
    }
  
    .concept-container {
@@ -342,11 +348,47 @@ margin: 2rem;
 }
 /** section 3 */
 
+.concept-container {
+    flex-direction: row;
+    
+}
+.concept {
+    margin: 1rem;
+}
 
+.img_2:hover {
+    transform: scale(1.2);
+    transition: all 0.5 ease-in-out;
+}
+
+/** Section 4"*/
+.nuestros-trabajos h3{
+    padding: 1.5rem;
+    font-size: 40px;
+ 
+}
+
+.nuestros-trabajos p {
+    padding: 2rem;
+    font-size: 20px;
+}
+
+.trabajo {
+ flex-direction: row;
+
+ background-color: aqua;
+
+}
+
+.foto {
+    max-width: 200px;
+    
+}
 
 
 
 }
+
     
 
 
