@@ -482,9 +482,47 @@ padding: 1rem;
   padding: 2rem;
 }
 
+/** Section 4 **/
+.nuestros-trabajos p {
+    margin: 2rem;
+}
+.foto {
+    max-width: 250px;
+}
+/** footer **/
+.container-contacto {
+padding-top: 3rem;    
+margin: 2rem;
 
 
 }
+.contacto1 { 
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    
+}
+.contacto2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+.fa-solid {
+    padding-top: 1.5rem;
+}
+.logo {
+     margin: 2rem;
+   
+
+}
+
+
+}
+
 
 
 
